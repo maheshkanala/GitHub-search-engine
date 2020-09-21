@@ -1,0 +1,33 @@
+.graphQlErr{
+    width: 50%;
+    font-size: 23px;
+    margin: auto;
+    text-align: center;
+    color: #c08888;
+}
+
+
+.loadingIcon{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.repoResults {
+  width: 1000px;
+  margin: auto;
+  max-height: 70vh;
+  overflow: auto;
+  td{
+      &.repoName{
+          max-width:200px;
+          text-transform: capitalize;
+    }
+    &.repoDesc{
+        max-width:500px
+    }
+    &.repoLink{
+        min-width:100px;
+    }
+  }
+}

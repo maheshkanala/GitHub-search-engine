@@ -1,0 +1,50 @@
+.searchPage__header {
+  text-align: center;
+  text-transform: capitalize;
+  width: 500px;
+  margin: 2% auto;
+}
+
+.searchPage__searchBar {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 2%;
+  position: relative;
+
+  &--searchIcon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 25px;
+    margin-right: 1%;
+  }
+
+  &--searchTxt {
+    height: 40px;
+    padding: 1px 5% 3px 8%;
+    outline: 0;
+    width: 500px;
+    margin: auto;
+    background-color: #f5f5f5;
+    border: 2px solid grey;
+    border-radius: 5%;
+    &:focus {
+      border: 2px solid #59bdff62;
+      background-color: white;
+    }
+  }
+
+  &--clearIcon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 25px;
+    cursor: pointer;
+    &:hover,&:focus {
+      outline: none;
+      top: 7px;
+      right: 7px;
+      width: 26px;
+    }
+  }
+}
